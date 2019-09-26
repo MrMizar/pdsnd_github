@@ -10,6 +10,8 @@ This project consist in a program that helps the user (through an interactive di
 
 ### Files used
 bikeshare.py
+
+Bikeshare data (provided by https://www.motivateco.com/)
 chicago.csv
 new_york_city.csv
 washington.csv
