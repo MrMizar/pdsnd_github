@@ -21,4 +21,14 @@ For the section of the code "# display most frequent combination of start statio
 
 The code was modified by changing the statements and, mainly, correcting a minor error, related to the duplication of the same message (misuse of .format). 
 
+the original code was therefore changed from:
+
+Name = df[['Start Station', 'End Station']].mode().loc[0]
+    print("sentence is: {}, {}"\
+            .format(name[0], name[1]))
+to:
+
+ChangedName = df[['Start Station', 'End Station']].mode().loc[0]
+    print("Changedsentence is: {}"\
+            .format(name[0]))
 
