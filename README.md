@@ -19,4 +19,6 @@ washington.csv
 ### Credits
 For the section of the code "# display most frequent combination of start station and end station trip" inspiration has been taken from the solution provided at this GitHub link: https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py
 
+The code was modified by changing the statements and, mainly, correcting a minor error, related to the duplication of the same message (misuse of .format). 
+
 
