@@ -234,6 +234,10 @@ def trip_duration_stats(df):
     max_travel = df['Trip Duration'].max()
     print("Max travel time :", max_travel)
 
+    # display standard deviation on travel times
+    std_travel_times = df['Trip Duration'].std()
+    print("Standard deviation travel time :", std_travel_times)
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -281,43 +285,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-# def main():
-#     while True:
-#         city, month, day = get_filters()
-#         df = load_data(city, month, day)
-#
-#         time_stats(df)
-#         station_stats(df)
-#         trip_duration_stats(df)
-#         user_stats(df)
-#         table_stats(df, city)
-#
-#         display_data(df)
-#
-#         restart = input('\nWould you like to restart? Enter yes or no.\n')
-#         if restart.lower() != 'yes':
-#             break
-#
-#
-# if __name__ == "__main__":
-# 	main()
-
-
-# def main():
-#     while True:
-#         city, month, day = get_filters()
-#         df = load_data(city, month, day)
-#
-#         time_stats(df)
-#         station_stats(df)
-#         trip_duration_stats(df)
-#         user_stats(df)
-#
-#         restart = input('\nWould you like to restart? Enter yes or no.\n')
-#         if restart.lower() != 'yes':
-#             break
-#
-#
-# if __name__ == "__main__":
-# 	main()
