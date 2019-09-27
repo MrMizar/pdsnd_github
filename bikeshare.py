@@ -238,6 +238,10 @@ def trip_duration_stats(df):
     std_travel_times = df['Trip Duration'].std()
     print("Standard deviation travel time :", std_travel_times)
 
+    # display median on travel times
+    median_travel_times = df['Trip Duration'].std()
+    print("Median travel time :", median_travel_times)
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
