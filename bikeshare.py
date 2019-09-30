@@ -234,6 +234,10 @@ def trip_duration_stats(df):
     max_travel = df['Trip Duration'].max()
     print("Max travel time :", max_travel)
 
+    # display max travel time
+    min_travel = df['Trip Duration'].min()
+    print("Max travel time :", max_travel)
+    
     # display standard deviation on travel times
     std_travel_times = df['Trip Duration'].std()
     print("Standard deviation travel time :", std_travel_times)
