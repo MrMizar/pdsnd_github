@@ -5,7 +5,6 @@
 Explore_US_Bikeshare_Database
 
 ### Description
-Describe what your project is about and what it does
 This project consist in a program that helps the user (through an interactive dialog) to explore data (related to year 2017) of bikeshare services in three american cities: New York; Chicago and Washington. The program asks the users on which city the user wants to explore data and also the user can specify the month (or all from january to june) and also the specific weekday (or all). The analysis include gender analysis, age of the users but also most common starting station, arrival station origin-destination combination, together with trip duration most common day of the week or hour of the day the service is being used. 
 
 ### Files used
