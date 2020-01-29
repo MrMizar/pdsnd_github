@@ -12,9 +12,9 @@ This project consist in a program (python) that helps the user (through an inter
 bikeshare.py
 
 Bikeshare data (provided by https://www.motivateco.com/)
-chicago.csv
-new_york_city.csv
-washington.csv
+chicago.csv, 
+new_york_city.csv, 
+washington.csv, 
 
 ### Credits
 For the section of the code "# display most frequent combination of start station and end station trip" inspiration has been taken from the solution provided at this GitHub link: https://github.com/ozlerhakan/bikeshare/blob/master/bikeshare.py
